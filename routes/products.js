@@ -18,7 +18,7 @@ router.get("/",verfyToken, async function (req, res, next) {
       success: false,
     });
   }
-});git checkout -b <ชื่อ branch>
+});
 
 router.get("/:product_id/orders",verfyToken, async function (req, res, next) {
     let { product_id } = req.params;
